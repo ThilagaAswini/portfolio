@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <link rel="stylesheet" href="file.css">
+    <script src="https://kit.fontawesome.com/7c4bbeac03.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container"></div>
+        <nav> 
+            <img src="flog.jpg" class="logo">
+           <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+           </ul>
+        </nav>
+<div class="header-text">
+    <p>Front End Developer</p>
+    <h2>Hii, I'm <span> Thilaga Aswini.R </span></h2>
+</div>
+
+<!-------------about------------->
+
+</div>
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+            <img src="2ph.jpeg" class="left-image" width="700px" height="900px" >
+        </div>
+            <div class="About-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate Front-End Developer with a keen eye for web design and <br>a strong foundation in creating responsive, user-friendly web pages. With <br> a background in Computer Science Eager to continuously learn and expand my expertise,<br> I am exploring modern web technologies to build seamless digital experiences.<br> My goal is to transition into a full-fledged IT role, <br>contributing innovative solutions and staying at the forefront of technology.</p>
+            </div>
+                <div class="tab-titles">
+                <p class="tab-links active-link"  onclick=" opentab('skills')">Skills</p>
+                <p class="tab-links active-link"  onclick=" opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab"  id="skills">
+                <ul>
+                    <li><span>UI/UX Designer</span><br>Designing Web Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents"   id="Education">
+                <ul>
+                    <li><span>2023-2026</span><br>Bsc.CSA at Sri Krishna Arts And Science College</li>
+                    <li><span>2022-2023</span><br>Computer Applications From Coimbatore</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    
+<!-----------------services-------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="services">My Services</h1> <br><br><br>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating visually stunning and user-friendly websites <br> tailored to users needs</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing intuitive and engaging user experiences with seamless interfaces.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Developing</h2>
+                        <p>Building high-performance and user-friendly mobile and web applications.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------portfolio------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="services">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image-work1.jpg">
+                <div class="layer">
+                   <h3>Image search engine App</h3> 
+                   <p>An image search engine app helps users find images online by using keywords </p>
+                   <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image-work3.jpg">
+                <div class="layer">
+                    <h3>To-Do List</h3> 
+                    <p>A to-do list app helps users organize and manage their daily tasks efficiently </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="image-work2.jpg">
+                <div class="layer">
+                    <h3>E-commerce Website</h3> 
+                    <p>An e-commerce website helps in selling products online to a wide range of customers. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------contact------------>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="contact">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thilagaaswinir1906@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9842173498</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+                <a href="cv.pdf" download class="btn btn2">Download CV</a>
+           </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright by Thilaga Aswini</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    
+        for(tabcontents of tabcontents){
+            tabcontents.classList.remove("active-tab");
+    }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqxq5FX925nCgTHO1tOwMuTqT0xXSCHg0AQWbR8I9xjH5vR0UIaE5J1y90Q3FiMxTl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="message send successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            f0rm.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
